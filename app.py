@@ -192,4 +192,5 @@ def delete_order_view(order_id):
 
 if __name__ == "__main__":
     create_tables()  # Ensure tables are created on startup
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
+
